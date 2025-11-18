@@ -16,8 +16,8 @@ export async function enableAppConfig(app: INestApplication): Promise<void> {
 
 async function setupSwaggerDocumentation(app: INestApplication) {
   const config = new DocumentBuilder()
-    .setTitle('Strettch Backend APIs')
-    .setDescription('The Strettch Backend APIs')
+    .setTitle('ZambiConnect Backend APIs')
+    .setDescription('The ZambiConnect Backend APIs')
     .setVersion('1.0')
     .build();
   const document = SwaggerModule.createDocument(app, config);
