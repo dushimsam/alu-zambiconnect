@@ -1,0 +1,116 @@
+export enum UserRole {
+  ADMIN = 'ADMIN',
+  STAFF = 'STAFF',
+  NORMAL = 'NORMAL',
+}
+
+export enum StaffType {
+  NGO = 'NGO',
+  GOVERNMENT = 'GOVERNMENT',
+  TOURISM_COMPANY = 'TOURISM_COMPANY',
+}
+
+export enum VerificationStatus {
+  PENDING = 'PENDING',
+  VERIFIED = 'VERIFIED',
+  REJECTED = 'REJECTED',
+  SUSPENDED = 'SUSPENDED',
+}
+
+export enum JobStatus {
+  DRAFT = 'DRAFT',
+  PUBLISHED = 'PUBLISHED',
+  CLOSED = 'CLOSED',
+  ARCHIVED = 'ARCHIVED',
+}
+
+export enum ApplicationStatus {
+  PENDING = 'PENDING',
+  REVIEWED = 'REVIEWED',
+  SHORTLISTED = 'SHORTLISTED',
+  ACCEPTED = 'ACCEPTED',
+  REJECTED = 'REJECTED',
+  WITHDRAWN = 'WITHDRAWN',
+}
+
+export enum OpportunityStatus {
+  DRAFT = 'DRAFT',
+  PUBLISHED = 'PUBLISHED',
+  CLOSED = 'CLOSED',
+  ARCHIVED = 'ARCHIVED',
+}
+
+export enum VolunteerApplicationStatus {
+  PENDING = 'PENDING',
+  ACCEPTED = 'ACCEPTED',
+  REJECTED = 'REJECTED',
+  COMPLETED = 'COMPLETED',
+  WITHDRAWN = 'WITHDRAWN',
+}
+
+export enum ContentType {
+  ARTICLE = 'ARTICLE',
+  GUIDE = 'GUIDE',
+  VIDEO = 'VIDEO',
+  PODCAST = 'PODCAST',
+  INFOGRAPHIC = 'INFOGRAPHIC',
+}
+
+export enum ContentStatus {
+  DRAFT = 'DRAFT',
+  PUBLISHED = 'PUBLISHED',
+  ARCHIVED = 'ARCHIVED',
+}
+
+export enum ReviewStatus {
+  PENDING = 'PENDING',
+  APPROVED = 'APPROVED',
+  REJECTED = 'REJECTED',
+}
+
+export enum PriceCategory {
+  ACCOMMODATION = 'ACCOMMODATION',
+  FOOD = 'FOOD',
+  TRANSPORT = 'TRANSPORT',
+  ACTIVITIES = 'ACTIVITIES',
+  SERVICES = 'SERVICES',
+}
+
+export enum PaymentStatus {
+  PENDING = 'PENDING',
+  COMPLETED = 'COMPLETED',
+  FAILED = 'FAILED',
+  REFUNDED = 'REFUNDED',
+}
+
+export enum PaymentMethod {
+  MOBILE_MONEY = 'MOBILE_MONEY',
+  BANK_TRANSFER = 'BANK_TRANSFER',
+  CARD = 'CARD',
+  CASH = 'CASH',
+}
+
+export enum DisputeStatus {
+  OPEN = 'OPEN',
+  IN_PROGRESS = 'IN_PROGRESS',
+  RESOLVED = 'RESOLVED',
+  CLOSED = 'CLOSED',
+}
+
+export enum NotificationType {
+  APPLICATION_UPDATE = 'APPLICATION_UPDATE',
+  NEW_JOB = 'NEW_JOB',
+  NEW_OPPORTUNITY = 'NEW_OPPORTUNITY',
+  VERIFICATION_UPDATE = 'VERIFICATION_UPDATE',
+  MESSAGE = 'MESSAGE',
+  SYSTEM = 'SYSTEM',
+}
+
+export enum ImpactMetricType {
+  TREES_PLANTED = 'TREES_PLANTED',
+  WASTE_COLLECTED = 'WASTE_COLLECTED',
+  ANIMALS_PROTECTED = 'ANIMALS_PROTECTED',
+  AREA_CLEANED = 'AREA_CLEANED',
+  COMMUNITY_MEMBERS_EDUCATED = 'COMMUNITY_MEMBERS_EDUCATED',
+  CUSTOM = 'CUSTOM',
+}
