@@ -1,6 +1,6 @@
 # 1. Executive Summary
 
-Below is the comprehensive API documentation for HadatHub’s ticket management system. It covers companies hosting events, venues, and the process of collecting payments for attendees through ticket purchases.
+Below is the comprehensive API documentation for HadatHub’s ticket management system. It covers how companies are onboarded and how they host events, manage venues, and efficiently collect payments for attendees through ticket purchases.
 
 # 2. Domain Analysis
 
